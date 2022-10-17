@@ -8,7 +8,7 @@
 </head>
 <body>
 	<%
-		session.invalidate(); //부여한 세션 빼앗아서 로그아웃
+		session.invalidate();
 	%>
 	<script>
 		location.href = 'main.jsp';
